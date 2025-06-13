@@ -127,4 +127,3 @@ if st.button("📚 책 추천 받기!"):
     calculate_scores()
     best_book = max(scores, key=scores.get)
     st.write(f"🎉 당신에게 가장 어울리는 책은: **{best_book}** 입니다!")
-    st.write(f"📖 책 내용: {best
